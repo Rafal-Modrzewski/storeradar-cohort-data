@@ -33,6 +33,8 @@ The snapshot CSV is a compact public mirror for reproducible analysis. If a valu
 
 The repository is a discovery and analysis mirror, not a replacement for StoreRadar's canonical pages. Every row points back to the exact `.co` dataset page that carries the observation date, methodology, visible table, and Dataset/DataCatalog markup.
 
+The dependency-free [`scripts/refresh_public_mirror.py`](scripts/refresh_public_mirror.py) and weekly GitHub Actions job keep the sitemap map and [`data/current-cohort-snapshot.csv`](data/current-cohort-snapshot.csv) aligned with the public `.co` pages. The job reads only public aggregate pages and never imports store-level or contact data.
+
 ## Citation
 
 For a cohort row, cite the relevant canonical StoreRadar dataset page, its observation date, and this repository only as the open analysis mirror. Suggested format:

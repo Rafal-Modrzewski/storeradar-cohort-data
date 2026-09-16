@@ -1,0 +1,32 @@
+name: Refresh StoreRadar public evidence mirror
+
+on:
+  schedule:
+    # Node 2's weekly cycle runs at 06:00 UTC on Monday; refresh after it.
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Refresh from canonical StoreRadar pages
+        run: python scripts/refresh_public_mirror.py
+      - name: Commit changed public facts
+        run: |
+          if test -z "$(git status --porcelain)"; then
+            echo "No public sitemap or cohort changes."
+            exit 0
+          fi
+          git config user.name "StoreRadar public mirror"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/canonical-pages.csv data/current-cohort-snapshot.csv
+          git commit -m "Refresh public StoreRadar evidence mirror"
+          git push
