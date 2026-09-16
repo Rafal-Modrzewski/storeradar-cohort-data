@@ -1,0 +1,13 @@
+cohort,technology,observed_storefronts,observation_date,canonical_source
+storefront_optimization,PageFly,12500,2026-09-14,https://storeradar.co/datasets/shopify-storefront-optimization-stack
+storefront_optimization,Avada SEO,9010,2026-09-14,https://storeradar.co/datasets/shopify-storefront-optimization-stack
+storefront_optimization,Boost Commerce,8345,2026-09-14,https://storeradar.co/datasets/shopify-storefront-optimization-stack
+storefront_optimization,Instant,7217,2026-09-14,https://storeradar.co/datasets/shopify-storefront-optimization-stack
+reviews_social_proof,Judge.me,76617,2026-09-14,https://storeradar.co/datasets/shopify-review-social-proof-stack
+reviews_social_proof,Okendo,29176,2026-09-14,https://storeradar.co/datasets/shopify-review-social-proof-stack
+reviews_social_proof,Loox,12430,2026-09-14,https://storeradar.co/datasets/shopify-review-social-proof-stack
+reviews_social_proof,Yotpo,6716,2026-09-14,https://storeradar.co/datasets/shopify-review-social-proof-stack
+retention_crm,Klaviyo,52293,2026-09-14,https://storeradar.co/datasets/shopify-retention-crm-stack
+retention_crm,Omnisend,7556,2026-09-14,https://storeradar.co/datasets/shopify-retention-crm-stack
+retention_crm,Privy,5549,2026-09-14,https://storeradar.co/datasets/shopify-retention-crm-stack
+retention_crm,Mailchimp,2347,2026-09-14,https://storeradar.co/datasets/shopify-retention-crm-stack

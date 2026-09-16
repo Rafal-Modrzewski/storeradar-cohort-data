@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "StoreRadar Shopify cohort snapshots"
+message: "If you use this dataset, cite the relevant StoreRadar canonical dataset page and observation date."
+type: dataset
+authors:
+  - family-names: "Modrzewski"
+    given-names: "Rafal"
+    affiliation: "StoreRadar Limited"
+repository-code: "https://github.com/Rafal-Modrzewski/storeradar-cohort-data"
+license: CC-BY-4.0
+version: "2026-09-14"
+date-released: "2026-09-16"
