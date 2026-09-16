@@ -4,18 +4,22 @@ This repository publishes small, reproducible, aggregate Shopify storefront-tech
 
 ## Current snapshot
 
-The first snapshot was observed on **2026-09-14**. It contains 12 aggregate technology rows across three focused cohorts:
+The current public snapshot was observed on **2026-09-14**. It contains 38 aggregate technology rows across five focused cohorts:
 
 - storefront optimization
 - reviews and social proof
 - retention and CRM
+- customer support
+- visual merchandising
 
 The canonical StoreRadar pages remain the source of record. The public pages include the visible tables, observation dates, methodology limits, and machine-readable `Dataset`/`DataCatalog` metadata:
 
 - [StoreRadar dataset catalog](https://storeradar.co/datasets/catalog)
+- [Customer support stack](https://storeradar.co/datasets/shopify-customer-support-stack)
 - [Storefront optimization stack](https://storeradar.co/datasets/shopify-storefront-optimization-stack)
 - [Reviews and social proof stack](https://storeradar.co/datasets/shopify-review-social-proof-stack)
 - [Retention and CRM stack](https://storeradar.co/datasets/shopify-retention-crm-stack)
+- [Visual merchandising stack](https://storeradar.co/datasets/shopify-visual-merchandising-stack)
 
 ## Method and limits
 
@@ -25,7 +29,9 @@ The snapshot CSV is a compact public mirror for reproducible analysis. If a valu
 
 ## Canonical page map
 
-[`data/canonical-pages.csv`](data/canonical-pages.csv) mirrors the public `.co` URLs discoverable from StoreRadar's sitemap surfaces as observed on 2026-09-16. It includes the research, app-cohort, insight, and dataset routes without changing their canonical ownership.
+[`data/canonical-pages.csv`](data/canonical-pages.csv) mirrors the public `.co` URLs discoverable from StoreRadar's sitemap surfaces as observed on 2026-09-17. It includes the research, app-cohort, insight, and dataset routes without changing their canonical ownership.
+
+The repository is a discovery and analysis mirror, not a replacement for StoreRadar's canonical pages. Every row points back to the exact `.co` dataset page that carries the observation date, methodology, visible table, and Dataset/DataCatalog markup.
 
 ## Citation
 
