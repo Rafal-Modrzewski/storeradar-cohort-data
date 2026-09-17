@@ -4,7 +4,7 @@ This repository publishes small, reproducible, aggregate Shopify storefront-tech
 
 ## Current snapshot
 
-The current public snapshot was observed on **2026-09-16**. It contains 38 aggregate technology rows across five focused cohorts:
+The current public snapshot was observed on **2026-09-17**. It contains 38 aggregate technology rows across five focused cohorts:
 
 - storefront optimization
 - reviews and social proof
@@ -20,6 +20,12 @@ The canonical StoreRadar pages remain the source of record. The public pages inc
 - [Reviews and social proof stack](https://storeradar.co/datasets/shopify-review-social-proof-stack)
 - [Retention and CRM stack](https://storeradar.co/datasets/shopify-retention-crm-stack)
 - [Visual merchandising stack](https://storeradar.co/datasets/shopify-visual-merchandising-stack)
+
+For a buyer evaluating a comparable Shopify store-data provider, use the
+maintained [Store Leads alternative guide](https://storeradar.co/research/storeleads-alternative).
+It connects the public aggregate evidence to StoreRadar's matched-sample
+preview and self-serve checkout; store-level records and contact data remain
+outside this open mirror.
 
 ## Method and limits
 
@@ -39,6 +45,6 @@ The dependency-free [`scripts/refresh_public_mirror.py`](scripts/refresh_public_
 
 For a cohort row, cite the relevant canonical StoreRadar dataset page, its observation date, and this repository only as the open analysis mirror. Suggested format:
 
-> StoreRadar, “Shopify storefront optimization technology stack,” aggregate snapshot observed 2026-09-16, https://storeradar.co/datasets/shopify-storefront-optimization-stack.
+> StoreRadar, “Shopify storefront optimization technology stack,” aggregate snapshot observed 2026-09-17, https://storeradar.co/datasets/shopify-storefront-optimization-stack.
 
 This repository is licensed under CC BY 4.0. See [LICENSE](LICENSE).
